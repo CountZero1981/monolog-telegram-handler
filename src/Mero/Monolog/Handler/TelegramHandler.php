@@ -111,7 +111,7 @@ class TelegramHandler extends AbstractProcessingHandler
      *
      * @param array $record
      */
-    protected function write(array $record)
+    protected function write(array $record): void
     {
         $content = $this->buildContent($record);
 
